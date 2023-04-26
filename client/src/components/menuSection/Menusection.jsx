@@ -7,7 +7,7 @@ const Menusection = ({arr,heading}) => {
             <ul>
                 {
                     arr.map(([icon,name])=>(
-                        <div className="MenuSection_element">
+                        <div className="MenuSection_element" key={name}>
                     {icon}
                     <li>
                         <span>{name}</span>

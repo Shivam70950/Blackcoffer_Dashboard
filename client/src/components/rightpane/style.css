@@ -1,5 +1,60 @@
-.right__section{
+.right__section {
     border: 2px solid black;
     height: 100vh;
     width: 100%;
+    padding: 1rem 1rem;
+}
+
+.search {
+    width: 100%;
+    display: flex;
+    border: 1px solid black;
+    border-radius: 4px;
+    height: 50px;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+
+}
+
+.leftsearch {
+    margin: 1px 10px;
+
+}
+
+.leftsearch input {
+    padding: 10px;
+    border: 0;
+
+}
+
+.leftsearch input:focus {
+    outline: 0;
+}
+
+.rightsearch {
+    /* background-color: antiquewhite; */
+    margin: 1px 15px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.rightsearch svg {
+    font-size: 1.4rem;
+}
+
+.rightsearch .profile {
+    height: 35px;
+    width: 35px;
+    background-color: aqua;
+    border-radius: 50%;
+}
+.cards{
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 25px;
+    width: 100%;
+    /* background-color: antiquewhite; */
 }
