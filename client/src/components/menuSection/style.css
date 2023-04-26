@@ -1,0 +1,53 @@
+.MenuSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* margin: 14px; */
+    /* border: 2px solid red; */
+    width: 100%;
+    margin: 15px 0px;
+    padding: 2px 0px;
+}
+
+.MenuSection ul {
+
+    margin: 12px 3px;
+    font-size: 17px;
+    list-style: none;
+
+}
+
+.MenuSection span {
+    /* border: 2px solid black; */
+    font-size: 12px;
+    font-weight: bold;
+    color: rgba(87, 81, 81, 0.463);
+
+}
+
+.MenuSection_element span {
+    font-size: 18px;
+    margin: 9px 6px;
+    display: flex;
+    cursor: pointer;
+    color: rgba(76, 73, 73, 0.463);
+}
+
+.MenuSection_element {
+    /* font-weight: 100; */
+    padding: 4px;
+    height: 35px;
+    right:inherit;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    margin: 5px;
+
+}
+.MenuSection_element:hover{
+    background-color: rgba(203, 199, 199, 0.128);
+    border-radius: 5px;
+}
+.MenuSection svg{
+    margin: 11px 0px;
+}
